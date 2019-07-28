@@ -5,6 +5,13 @@
     "port": 0,
     "pin": ""
   },
-  "description": ""
+  "description": "Nature remo",
+  "accessories": [
+    {
+      "accessory": "NatureRemoAircon",
+      "name": "エアコン",
+      "access_token": "",
+      "appliance_id": ""
+    }
+  ]
 }
-
