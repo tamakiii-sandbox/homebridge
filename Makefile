@@ -1,3 +1,8 @@
+info: dependencies
+	echo $(REMO_NAME)
+	timeout 1 dns-sd -B _remo._tcp || true
+	timeout 1 dns-sd -G v4 $(REMO_NAME).local || true
+
 dependencies:
 	type jq > /dev/null
 
