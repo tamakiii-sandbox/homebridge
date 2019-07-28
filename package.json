@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tamakiii/homebridge/issues"
   },
-  "homepage": "https://github.com/tamakiii/homebridge#readme"
+  "homepage": "https://github.com/tamakiii/homebridge#readme",
+  "dependencies": {
+    "homebridge": "^0.4.50"
+  }
 }
