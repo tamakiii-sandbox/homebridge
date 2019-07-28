@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: docker/homebridge/Dockerfile
     working_dir: /app
+    network_mode: host
     ports:
       - ${HOMEBRIDGE_PORT}:${HOMEBRIDGE_PORT}
     volumes:

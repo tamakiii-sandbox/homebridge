@@ -6,6 +6,4 @@ COPY package.json /app/package.json
 COPY package-lock.json /app/package-lock.json
 WORKDIR /app
 
-RUN npm install --only=production
-
-ENTRYPOINT npx --no-install homebridge
+ENTRYPOINT npm install --only=production && npx --no-install homebridge
