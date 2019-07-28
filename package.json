@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tamakiii/homebridge#readme",
   "dependencies": {
-    "homebridge": "^0.4.50"
+    "homebridge": "^0.4.50",
+    "homebridge-nremo": "0.0.3"
   }
 }
