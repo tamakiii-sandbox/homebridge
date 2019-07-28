@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tamakiii/homebridge#readme",
   "dependencies": {
     "homebridge": "^0.4.50",
+    "homebridge-nature-remo-aircon": "git+https://github.com/kmaehashi/homebridge-nature-remo-aircon.git",
     "homebridge-nremo": "0.0.3"
   }
 }
