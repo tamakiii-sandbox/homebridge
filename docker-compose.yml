@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  homebridge:
+    build:
+      context: .
+      dockerfile: docker/homebridge/Dockerfile
+    working_dir: /app
+    network_mode: host
+    ports:
+      - ${HOMEBRIDGE_PORT}:${HOMEBRIDGE_PORT}
+    volumes:
+      - .:/app
+      - ./config.json:/root/.homebridge/config.json
+

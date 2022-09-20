@@ -1,0 +1,25 @@
+{
+  "name": "tamakiii-homebridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii/homebridge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamakiii/homebridge/issues"
+  },
+  "homepage": "https://github.com/tamakiii/homebridge#readme",
+  "dependencies": {
+    "homebridge": "^0.4.50",
+    "homebridge-nature-remo-aircon": "git+https://github.com/kmaehashi/homebridge-nature-remo-aircon.git",
+    "homebridge-nremo": "0.0.3"
+  }
+}

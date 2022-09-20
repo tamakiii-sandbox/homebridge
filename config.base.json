@@ -1,0 +1,17 @@
+{
+  "bridge": {
+    "name": "tamakiii-homebridge",
+    "username": "",
+    "port": 0,
+    "pin": ""
+  },
+  "description": "Nature remo",
+  "accessories": [
+    {
+      "accessory": "NatureRemoAircon",
+      "name": "エアコン",
+      "access_token": "",
+      "appliance_id": ""
+    }
+  ]
+}
